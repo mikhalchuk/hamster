@@ -1,0 +1,22 @@
+{
+  "name": "mikhalchuk/hamster",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Sergii Mikhalchuk",
+      "email": "sergii.mykhalchuk@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "5.5"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "2.3.3"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "bash bin/setup.sh"
+    ]
+  }
+}
