@@ -1,6 +1,7 @@
 {
   "name": "mikhalchuk/hamster",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "license": "proprietary",
   "authors": [
     {
@@ -9,7 +10,8 @@
     }
   ],
   "require": {
-    "php": "5.5"
+    "php": ">=5.5.9",
+    "silex/silex": "2.0.x-dev"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "2.3.3"
